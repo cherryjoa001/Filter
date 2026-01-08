@@ -1,0 +1,209 @@
+! --- [Cherryjoa001 Filter: iPad/Safari Full 1:1 Conversion] ---
+
+! https://today-sports7.com
+today-sports7.com##li:has([target]:not([href*=bbs]))
+today-sports7.com##li:has([href*="=verif"])
+today-sports7.com##li:has([href*="=livescore"])
+today-sports7.com##li:has([href*="=analysis"])
+today-sports7.com##li:has([href*="=notice"])
+today-sports7.com##li:has([href*="=humor"])
+today-sports7.com##li:has([href*="=free"])
+today-sports7.com##.img-carousel-wrap
+today-sports7.com##.live-stream
+today-sports7.com##.gallery-box-notice
+today-sports7.com##.m-b-30.row
+||today-sports7.com*tst_gallery*$image
+||today-sports7.com*editor*.png$image
+||*giphy.com/media/*.gif$image
+||file.sportsseoul*.jpg^
+
+! https://ww1.koreanbj.club
+ww1.koreanbj.club##.widget_custom_html.widget.widget_text
+ww1.koreanbj.club##.rating-box
+ww1.koreanbj.club###commentform
+ww1.koreanbj.club##.inPlayerGGdiv
+ww1.koreanbj.club##li:has([href*="korean-bj"])
+ww1.koreanbj.club##.video-description
+||koreanbj.club/*/ccwe.webp$image
+
+! https://dfakekor.com
+dfakekor.com##.widget_block.widget
+dfakekor.com##.banner-wrap
+dfakekor.com##.homepage-description
+dfakekor.com##.site-description
+dfakekor.com##.hd-video
+dfakekor.com###comments
+dfakekor.com##.video-actions
+dfakekor.com##.video-description
+
+! https://dcinside.com
+dcinside.com##.media-group.grid
+dcinside.com##.gall-group.grid
+dcinside.com##.rank-group.grid
+dcinside.com##.nh-group.grid
+dcinside.com##.lstinr
+dcinside.com##.livebest-tab
+dcinside.com##.blue.paging
+dcinside.com##.reco-area
+dcinside.com##.view-btm-con
+dcinside.com##.outside-search-box
+dcinside.com##.md-tit
+dcinside.com##.md-tit-box
+dcinside.com###notice_list
+dcinside.com##div[class*='tip']
+dcinside.com##[href="javascript:"]
+dcinside.com###div_adnmore_area
+||dcinside.com*comment_boy*$script
+||nstatic.dcinside.com*logo*.gif$image
+||dcinside.com/js/kakao.min.js^$script
+||dcinside.com*lottery*.js^
+||dcinside.com*analytic*.js^$script
+
+! https://jilliandescribecompany.com
+jilliandescribecompany.com##iframe[src="javascript:;"]
+
+! https://www.reddit.com
+www.reddit.com##.block.relative.promotedlink
+www.reddit.com##.z-\[100\].justify-end
+
+! https://bunkr.cr
+bunkr.*##.dark > div
+bunkr.*##center
+
+! https://spankbang.com
+spankbang.com##.vjs-user-inactive.vast_video_player-dimensions.vjs-has-started.vjs-playing.vjs-v7.vjs-workinghover.vjs-touch-enabled.vjs-controls-disabled.vjs-theme-sb.video-js
+
+! https://m.naver.com
+naver.com##.type_round_card.comp_container
+naver.com##.id_search.wrap > .main_footer
+naver.com###sb-kh-shortents-wrap
+naver.com###HOME_AD
+
+! dict.naver.com
+dict.naver.com##.share_area
+dict.naver.com##.Nsearch_option_list
+dict.naver.com##.eitImeComboBtn.Ntool_write.Ntool_option
+dict.naver.com##.eitImeComboBtn.Ntool_option.Ntool_search
+dict.naver.com##.tooltip
+dict.naver.com##.ly_notice
+
+! https://deepfakepornvideos.com
+deepfakepornvideos.com##.widget_custom_html
+deepfakepornvideos.com##.footer-menu-container
+deepfakepornvideos.com###video-share
+deepfakepornvideos.com###rating-col
+
+! alldeepfake.com
+alldeepfake.com###video-share
+alldeepfake.com###rating-col
+alldeepfake.com##.rating-bar
+alldeepfake.com##.box-shadow.title-block
+alldeepfake.com##.hd-video
+
+! https://avcrack.net
+avcrack.*##p
+
+! https://*toki*.com (뉴토끼 가변 도메인 1:1 대응)
+toki*.com##id_mbv
+toki*.com##.basic-banner
+toki*.com##.is-tab.widget-msg-basic
+toki*.com##.flexslider
+toki*.com##.btn-info
+toki*.com##.en.bg-violet.pull-right.label
+toki*.com##.en.sidebar-form
+toki*.com##.fa-user.fa
+toki*.com##li:has([target]:not([href*=bbs]))
+toki*.com##.label-circle.label
+toki*.com##[class="print-hide view-icon view-padding"]
+toki*.com###to-btn
+toki*.com##[itemprop="headline"]
+toki*.com##[class="panel panel-default view-head no-attach"]
+toki*.com##.page-title
+toki*.com##.m-menu
+||*toki*skin*.png$image
+@@||*toki*skin*btn*.png$image
+||*toki*/img/brotoon*.jpg
+||*toki*logo*$image
+||*toki*favicon*$image
+||*toki*member*$image
+||*toki*placeholders*.js$script
+||*/img/cmt_good.gif$image
+||*toki*/thema/webtoon/assets/js/sly*.js$script
+||*toki*/*lightGallery*.js$script
+||*toki*/*slimscroll*.js$script
+
+! mrds.com (가변 도메인 대응)
+mrds*.com##blockquote
+mrds*.com##.flash
+mrds*.com###body-bottom > .container
+mrds*.com##.content-tabs
+mrds*.com##.dplayer-notice-list
+mrds*.com##.dplayer-menu-show.dplayer-menu
+mrds*.com##[rel="sponsored nofollow"]
+mrds*.com##.btn-download
+||pic*.gif
+
+! naver.com 추가
+m.cafe.naver.com##.join_layer
+m.cafe.naver.com##.FloatingJoinButton
+m.cafe.naver.com##.MenuHeader
+m.cafe.naver.com##.ArticleBottomArea
+m.chzzk.naver.com###recommended-panel
+
+! https://pornavhd.com
+pornavhd.com##.happy-related-videos-mobile
+
+! tvmon.com (가변 도메인 대응)
+tvmon*.com##.banner_wrap2
+tvmon*.com##[src*='/AD/']
+
+! Video context menu disable
+##.pzp-contextmenu-pane
+##.jw-rightclick
+
+! header footer popup banner AD disable
+##div[id^='hd_pop']
+##[class*="_bann"]
+##[class*="banner_m"]
+##div[class^='happy-header']
+##[href^="/bbs/banner.php"]
+##[target='_blank']:has([src*='/banner/'])
+##.bo_v_banner
+##.banner_box
+##.horizontal-banner
+##.small-banners-wrapper
+##.article-ads-btn
+##.mobile-small-ads
+##[class*='ad'][id^='AD']
+##[class*='_ad_']
+##.place-items-center
+
+###footer
+##.footer
+##.footer-container
+###foot-menu
+##.site-footer
+##.site-info
+###colophon
+##.pf_wrap
+##.copyright_box
+##.footer_container
+##[class*="tooltip"]
+##.view-padding.view-icon.print-hide
+
+||/ad/*
+||*advertise*
+||/ads/*
+||*banner*
+@@||*banner*$script
+||*tokinbtoki*.gif$image
+||*/ad*.gif$image
+||PopAds.net^
+
+||blogger.googleusercontent.com/img*$image
+||translate-pa.googleapis.com*$script
+||static.wixstatic.com/media*$image
+||zahamcnujrr.com^
+
+! https://comic.naver.com
+comic.naver.com##.up_down_area
