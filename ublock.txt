@@ -19,6 +19,7 @@
 *##[id*="_ad_"]
 *##[class*='ad'][id^='AD']
 *##[class*='_ad_']
+*##[class^="ad-container"]
 *##.place-items-center
 
 *###footer
