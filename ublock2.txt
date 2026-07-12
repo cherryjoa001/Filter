@@ -1,2 +1,0 @@
-https://raw.githubusercontent.com/cherryjoa001/Filter/refs/heads/main/ublock.txt
-ublock test
