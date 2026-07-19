@@ -3,67 +3,47 @@
 *##.jw-rightclick
 
 ! header footer popup banner AD disable
-*##div[id^='hd_pop']
-
-*##[class*="_bann"]
-*##[class*="banner_"]
 *##[class^="banner-"]
-*##[class$="Banner"]
-*##div[class^='happy-header']
 *##[href^="/bbs/banner.php"]
-*##[target='_blank']:has([src*='/banner/'])
+
+*##.banner_list:has([href*="xn--"])
+*##[class*="each_bn"]
 
 *##[src*='/AD/']
-*##.article-ads-btn
-*##.mobile-small-ads
 *##[id*="_ad_"]
-*##[class*='ad'][id^='AD']
 *##[class*='_ad_']
 *##[class^="ad-container"]
 *##.place-items-center
 
-*###footer
-*##.footer
-*##.footer-container
-*###foot-menu
-*##.site-footer
-*##.site-info
-*###colophon
-*##.pf_wrap
-*##.copyright_box
-*##.footer_container
-
+*##[class^="footer"]
 *##[class*="tooltip"]
 
+*##a.nav-item:has-text(토토)
 *##[href*="토토"]
+*##[rel*="sponsored"]
 
-||/ad/*^$all
-||*advertise*^$all
+
 ||/ads/*$all
 ||*banner*$all
 @@||*banner*$script
 ||*/ad*.gif$image
 ||PopAds.net^$all
 
-! https://dcinside.com
-dcinside.com##.media-group.grid
-dcinside.com##.gall-group.grid
-dcinside.com##.rank-group.grid
-dcinside.com##.nh-group.grid
-dcinside.com##.lstinr
-dcinside.com##.livebest-tab
-dcinside.com##.blue.paging
-dcinside.com##.reco-area
-dcinside.com##.view-btm-con
-dcinside.com##.outside-search-box
-dcinside.com##.md-tit
-dcinside.com##.md-tit-box
-dcinside.com###notice_list
-dcinside.com##div[class*='tip']
-dcinside.com##[href="javascript:"]
 
-dcinside.com###div_adnmore_area
-dcinside.com###app_down_pop
+! https://dcinside.com
+dcinside.com##.reco-area
+dcinside.com##.media-group
+dcinside.com##.rank-group
+dcinside.com##.nh-group
+dcinside.com##.gall-group
+
+dcinside.com##.paging.lg-tit-box
+dcinside.com##.blue.paging
+
+dcinside.com##[id*="tipbox"]
+
+dcinside.com##[id*="recom_box"]
+dcinside.com##.notice
 
 ||*comment_boy*$script
 ||nstatic.dcinside*logo*.gif*$image
@@ -76,18 +56,6 @@ www.reddit.com##.block.relative.promotedlink
 www.reddit.com##.z-\[100\].justify-end
 
 ! https://m.naver.com
-naver.com##.type_round_card.comp_container
-naver.com##.id_search.wrap > .main_footer
-naver.com###sb-kh-shortents-wrap
-naver.com###HOME_AD
-
-dict.naver.com##.share_area
-dict.naver.com##.Nsearch_option_list
-dict.naver.com##.eitImeComboBtn.Ntool_write.Ntool_option
-dict.naver.com##.eitImeComboBtn.Ntool_option.Ntool_search
-dict.naver.com##.tooltip
-dict.naver.com##.ly_notice
-
 m.cafe.naver.com##.join_layer
 m.cafe.naver.com##.FloatingJoinButton
 m.cafe.naver.com##.MenuHeader
