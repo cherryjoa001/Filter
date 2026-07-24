@@ -4,6 +4,7 @@
 
 ! header footer popup banner AD disable
 *##[class^="banner-"]
+*##[class*="-banner"]:not(:has(div)):has([src*=".gif"])
 *##[href^="/bbs/banner.php"]
 
 *##.banner_list:has([href*="xn--"])
@@ -15,20 +16,17 @@
 *##[class^="ad-container"]
 *##.place-items-center
 
-*##[class^="footer"]
+!*##[class^="footer"]
 *##[class*="tooltip"]
 
 *##a.nav-item:has-text(토토)
 *##[href*="토토"]
 *##[rel*="sponsored"]
 
-
 ||/ads/*$all
-||*banner*$all
-@@||*banner*$script
+||*banner*$image
 ||*/ad*.gif$image
 ||PopAds.net^$all
-
 
 ! https://dcinside.com
 dcinside.com##.reco-area
@@ -63,11 +61,18 @@ m.cafe.naver.com##.ArticleBottomArea
 
 ! https://chzzk.naver.com
 chzzk.naver.com#@#[class*="tooltip"]
+chzzk.naver.com##[href*="app.onelink"]
+chzzk.naver.com##[class*="container"]:has-text(광고 차단 프로그램)
 
 comic.naver.com##.up_down_area
 
 ! https://play.sooplive.com
 vod.sooplive.com##.player_bar
 vod.sooplive.com##.app_area
+vod.sooplive.com##header
+vod.sooplive.com###player_info
+
 play.sooplive.com###modal
 play.sooplive.com##.item_area
+play.sooplive.com##.column_sub
+play.sooplive.com##.message_player_wrap
