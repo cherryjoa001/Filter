@@ -58,3 +58,4 @@ play.sooplive.com###modal
 play.sooplive.com##.item_area
 play.sooplive.com##.column_sub
 play.sooplive.com##.message_player_wrap
+play.sooplive.com###player_info
