@@ -1,32 +1,14 @@
-! Video context menu disable
-*##.pzp-contextmenu-pane
-*##.jw-rightclick
+||*banner*$image
 
-! header footer popup banner AD disable
-*##[class^="banner-"]
-*##[class*="-banner"]:not(:has(div)):has([src*=".gif"])
-*##[href^="/bbs/banner.php"]
 
-*##.banner_list:has([href*="xn--"])
-*##[class*="each_bn"]
+*##[class*=tooltip]
 
-*##[src*='/AD/']
-*##[id*="_ad_"]
-*##[class*='_ad_']
-*##[class^="ad-container"]
-*##.place-items-center
-
-!*##[class^="footer"]
-*##[class*="tooltip"]
-
-*##a.nav-item:has-text(토토)
+*##[alt$="벳"]:upward(div)
+*##[alt$="카지노"]:upward(div)
+*##[aria-label$="제휴업체"]:upward(div)
 *##[href*="토토"]
 *##[rel*="sponsored"]
 
-||/ads/*$all
-||*banner*$image
-||*/ad*.gif$image
-||PopAds.net^$all
 
 ! https://dcinside.com
 dcinside.com##.reco-area
