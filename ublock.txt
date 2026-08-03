@@ -1,14 +1,17 @@
 ||*banner*$image
+!*##[class*="banner"]:not(:has-text(/./)) [target="_blank"] > img[src*=".gif"]
+
+!*##[alt*="벳"]:upward(div)
+!*##[alt*="카지노"]:upward(div)
+!*##[aria-label$="제휴업체"]:upward(div)
+!*##[href*="토토"]
+!*##[rel*="sponsored"]
 
 
-*##[class*=tooltip]
+!*##[class*="popup"]:has-text(습니다.) img:upward(1)
 
-*##[alt$="벳"]:upward(div)
-*##[alt$="카지노"]:upward(div)
-*##[aria-label$="제휴업체"]:upward(div)
-*##[href*="토토"]
-*##[rel*="sponsored"]
 
+*##[class$="tooltip"]
 
 ! https://dcinside.com
 dcinside.com##.reco-area
@@ -31,10 +34,6 @@ dcinside.com##.notice
 ||*dcinside.com*lottery*.js*^$all
 ||*analytic*.js*^$script
 
-! https://www.reddit.com
-www.reddit.com##.block.relative.promotedlink
-www.reddit.com##.z-\[100\].justify-end
-
 ! https://m.naver.com
 m.cafe.naver.com##.join_layer
 m.cafe.naver.com##.FloatingJoinButton
@@ -42,9 +41,9 @@ m.cafe.naver.com##.MenuHeader
 m.cafe.naver.com##.ArticleBottomArea
 
 ! https://chzzk.naver.com
-chzzk.naver.com#@#[class*="tooltip"]
 chzzk.naver.com##[href*="app.onelink"]
 chzzk.naver.com##[class*="container"]:has-text(광고 차단 프로그램)
+chzzk.naver.com##.player_header
 
 comic.naver.com##.up_down_area
 
@@ -59,3 +58,4 @@ play.sooplive.com##.item_area
 play.sooplive.com##.column_sub
 play.sooplive.com##.message_player_wrap
 play.sooplive.com###player_info
+play.sooplive.com###extensionProgramWrap
